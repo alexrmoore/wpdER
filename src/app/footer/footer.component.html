@@ -3,5 +3,10 @@
 <div class="timerdisplay" style="font-family: Arial; color:white; font-style: italic" *ngIf="!hideTimer">{{overallTimer}}</div>
 <!--<div class="anonymouscodebox" style="font-family: Arial; color:white; font-style: italic">ID Code: {{anonymousCode}}</div>-->
 <div class="instructions-button" (click)="onInstructionsClick()"></div>
-<div class="hintbutton" style="color:white; font-size: 38px; font-family: Arial; font-style: italic; text-align: center;" (click)="onHintClick()">HINT</div>
-<div class="giveupbutton" style="color:white; font-size: 38px; font-family: Arial; font-style: italic; text-align: center;" (click)="onGiveUpClick()">GIVE UP</div>
+
+<!--<div class="hintbutton" style="color:white; font-size: 38px; font-family: Arial; font-style: italic; text-align: center;" (click)="onHintClick()">HINT</div>
+<div class="giveupbutton" style="color:white; font-size: 38px; font-family: Arial; font-style: italic; text-align: center;" (click)="onGiveUpClick()">GIVE UP</div>-->
+
+<div class="hint-button" (click)="onHintClick()"></div>
+<div class="giveup-button" (click)="onGiveUpClick()"></div>
+<div class="fullscreen-button" (click)="onFullscreenClick()"></div>
