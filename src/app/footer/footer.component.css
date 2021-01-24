@@ -54,6 +54,42 @@
     cursor: pointer;
     background-image:  url(../instructions_button.png);
     border: 4px groove white;
+    left: 600px;
+    top: 502px;
+    width: 39px;
+    height: 39px;
+    z-index: 2;
+}
+
+.hint-button {
+    position: absolute;
+    cursor: pointer;
+    background-image:  url(../hintButton.png);
+    border: 4px groove white;
+    left: 650px;
+    top: 502px;
+    width: 39px;
+    height: 39px;
+    z-index: 2;
+}
+
+.giveup-button {
+    position: absolute;
+    cursor: pointer;
+    background-image:  url(../giveupButton.png);
+    border: 4px groove white;
+    left: 700px;
+    top: 502px;
+    width: 39px;
+    height: 39px;
+    z-index: 2;
+}
+
+.fullscreen-button {
+    position: absolute;
+    cursor: pointer;
+    background-image:  url(../fullscreenButton.png);
+    border: 4px groove white;
     left: 750px;
     top: 502px;
     width: 39px;
@@ -61,6 +97,7 @@
     z-index: 2;
 }
 
+/*
 .hintbutton {
     position: absolute;
     cursor: pointer;
@@ -91,4 +128,4 @@
     -moz-user-select:none;
     -webkit-user-select:none;
     -ms-user-select:none;
-}
+} */
