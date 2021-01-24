@@ -2,6 +2,7 @@
     position: relative;
 }
 
+
 .video {
     position: absolute;
     left: 0;
@@ -11,6 +12,7 @@
     background-image: url(../endroom.png);
     border: 0px groove yellow;
 }
+
 
 .click-zone {
     position: absolute;
