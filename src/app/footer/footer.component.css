@@ -54,7 +54,7 @@
     cursor: pointer;
     background-image:  url(../instructions_button.png);
     border: 4px groove white;
-    left: 600px;
+    left: 650px;
     top: 502px;
     width: 39px;
     height: 39px;
@@ -66,7 +66,7 @@
     cursor: pointer;
     background-image:  url(../hintButton.png);
     border: 4px groove white;
-    left: 650px;
+    left: 700px;
     top: 502px;
     width: 39px;
     height: 39px;
@@ -78,13 +78,14 @@
     cursor: pointer;
     background-image:  url(../giveupButton.png);
     border: 4px groove white;
-    left: 700px;
+    left: 750px;
     top: 502px;
     width: 39px;
     height: 39px;
     z-index: 2;
 }
 
+/*
 .fullscreen-button {
     position: absolute;
     cursor: pointer;
@@ -95,7 +96,7 @@
     width: 39px;
     height: 39px;
     z-index: 2;
-}
+}*/
 
 /*
 .hintbutton {
