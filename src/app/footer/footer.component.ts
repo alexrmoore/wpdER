@@ -56,7 +56,7 @@ export class FooterComponent implements OnInit{
     const modalRefGiveUp = this.modalService.open(GiveupModalComponent);
     modalRefGiveUp.componentInstance.name = 'World';
     }
-
+/*
   onFullscreenClick(): void{
     this.fullScreen = !this.fullScreen;
     if (this.fullScreen) {
@@ -70,13 +70,13 @@ export class FooterComponent implements OnInit{
     if (this.elem.requestFullscreen) {
       this.elem.requestFullscreen();
     } else if (this.elem.mozRequestFullScreen) {
-      /* Firefox */
+      /* Firefox */ /*
       this.elem.mozRequestFullScreen();
     } else if (this.elem.webkitRequestFullscreen) {
-      /* Chrome, Safari and Opera */
+      /* Chrome, Safari and Opera */ /*
       this.elem.webkitRequestFullscreen();
     } else if (this.elem.msRequestFullscreen) {
-      /* IE/Edge */
+      /* IE/Edge */ /*
       this.elem.msRequestFullscreen();
     }
   }
@@ -85,16 +85,16 @@ export class FooterComponent implements OnInit{
     if (this.document.exitFullscreen) {
       this.document.exitFullscreen();
     } else if (this.document.mozCancelFullScreen) {
-      /* Firefox */
+      /* Firefox */ /*
       this.document.mozCancelFullScreen();
     } else if (this.document.webkitExitFullscreen) {
-      /* Chrome, Safari and Opera */
+      /* Chrome, Safari and Opera */ /*
       this.document.webkitExitFullscreen();
     } else if (this.document.msExitFullscreen) {
-      /* IE/Edge */
+      /* IE/Edge */ /*
       this.document.msExitFullscreen();
     }
   }
-
-  }
+*/
+}
 
