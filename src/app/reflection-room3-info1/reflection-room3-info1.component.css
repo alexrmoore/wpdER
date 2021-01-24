@@ -1,0 +1,58 @@
+.container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 500px;
+    background-image: url(../info_background.png);
+    border: 0px groove yellow;
+}
+
+.titletextbox {
+    position: absolute;
+    font-weight: bold;
+    left: 80px;
+    top: 50px;
+    z-index: 4;
+    font-size: xx-large;
+    width: 600px;
+}
+
+.infotextbox {
+    position: absolute;
+    left: 330px;
+    top: 110px;
+    z-index: 4;
+    font-size: large;
+    width: 450px;
+}
+
+.click-zone {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.click-zone.back {
+    background: none;
+    background-image: url(../back_button.png);
+    left: 0px;
+    top: 0px;
+    width: 140px;
+    height: 60px;
+}
+
+.wavereflectiondiagram{
+    position: absolute;
+    background-image: url(../wave_reflected_220x205.png);
+    left: 80px;
+    top: 120px;
+    width: 220px;
+    height: 205px;
+    border: 3px solid black;
+}
+

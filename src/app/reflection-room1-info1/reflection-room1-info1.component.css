@@ -1,0 +1,57 @@
+.container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 500px;
+    background-image: url(../info_background.png);
+    border: 0px groove yellow;
+}
+
+.titletextbox {
+    position: absolute;
+    font-weight: bold;
+    left: 90px;
+    top: 50px;
+    width: 400px;
+    z-index: 4;
+    font-size: 45px;
+}
+
+.infotextbox {
+    position: absolute;
+    left: 90px;
+    top: 120px;
+    width: 710px;
+    z-index: 4;
+    font-size: 25px;
+}
+
+.click-zone {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.click-zone.back {
+    background: none;
+    background-image: url(../back_button.png);
+    left: 0px;
+    top: 0px;
+    width: 140px;
+    height: 60px;
+}
+
+.lightreflectiondiagram{
+    position: absolute;
+    background-image: url(../light_reflected_250x155.png);
+    left: 480px;
+    top: 300px;
+    width: 250px;
+    height: 155px;
+}
+

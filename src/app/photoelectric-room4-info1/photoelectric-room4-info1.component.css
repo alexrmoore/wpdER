@@ -1,0 +1,58 @@
+.container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 500px;
+    background-image: url(../info_background.png);
+    border: 0px groove yellow;
+}
+
+.infotextbox {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    width: 500px;
+    z-index: 4;
+    font-size: 20px;
+}
+
+.titletextbox {
+    position: absolute;
+    font-weight: bold;
+    left: 50px;
+    top: 60px;
+    width: 750px;
+    z-index: 4;
+    font-size: xx-large;
+}
+
+.click-zone {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.click-zone.back {
+    background: none;
+    background-image: url(../back_button.png);
+    left: 0px;
+    top: 0px;
+    width: 140px;
+    height: 60px;
+}
+
+.photondiagram{
+    position: absolute;
+    background-image: url(../photon_diagram.png);
+    border: 3px solid black;
+    width: 200px;
+    height: 149px;
+    left: 560px;
+    top: 70px;
+}
+

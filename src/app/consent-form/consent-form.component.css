@@ -1,0 +1,77 @@
+.container {
+    position: absolute;
+    z-index: 11;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 550px;
+    background: #292525;
+}
+
+/*
+.formsubmitbutton{
+    position: absolute;
+    left: 430px;
+    top: 510px;
+    width: 100px;
+}
+
+.informationbutton{
+    position: absolute;
+    left: 270px;
+    top: 510px;
+    width: 130px;
+} */
+
+.formsubmitbutton {
+    position: absolute;
+    left: 275px;
+    top: 488px;
+    width: 250px;
+    height: 45px;
+    font-size: 18px;
+    background: #3eb471;
+    text-align: center;
+    border: #525252 solid 5px;
+    border-radius: 11px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-container {
+    position: absolute;
+    overflow: scroll;
+    overflow-x: hidden;
+    border-radius: 25px;
+    background: rgb(228, 228, 228);
+    border: solid black 2px;
+    left: 30px;
+    width: 740px;
+    top: 45px;
+    /* height: 300px; */
+    height: 425px;
+    z-index: 15;
+    font-size: 22px;
+}
+
+.titletext {
+    position: absolute;
+    left: 50px;
+    width: 700px;
+    top: 20px;
+    height: 50px;
+    z-index: 15;
+    text-align: center;
+}
+
+input.largerCheckbox { 
+    /* position: absolute; */
+    width: 20px; 
+    height: 20px;
+    /* left: 230px; */
+    } 
+

@@ -1,0 +1,83 @@
+.widercontainer {
+    position: absolute;
+    left: 50%;
+}
+
+.container {
+    position: absolute;
+    left: -400px;
+}
+
+.blurredbackground {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 550px;
+    background: grey;
+    opacity: 0.6;
+    z-index: 11;
+}
+
+.modalbox {    
+    position: absolute;
+    left: 130px;
+    top: 140px;
+    width: 540px;  
+    height: 260px;
+    z-index: 11;
+    background-color: #525252;
+    border: black solid 6px;
+    border-radius: 15px; 
+}
+
+.closebutton {
+    cursor: pointer;
+    position: absolute;
+    left: 190px;
+    top: 320px;
+    width: 180px;  
+    height: 80px;
+    z-index: 12;
+    background: #3eb471;
+    border: black solid 6px;
+    border-radius: 15px;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    font-weight: bold;
+}
+
+.giveupbutton {
+    cursor: pointer;
+    position: absolute;
+    left: 430px;
+    top: 320px;
+    width: 180px;  
+    height: 80px;
+    z-index: 12;
+    background: #3eb471;
+    border: black solid 6px;
+    border-radius: 15px;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    font-weight: bold;
+}
+
+.giveuptext {
+    position: absolute;
+    left: 150px;
+    top: 160px;
+    width: 500px;  
+    height: 100px;
+    z-index: 12;
+    overflow-wrap: normal;
+    font-weight: bolder;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+}

@@ -1,0 +1,75 @@
+.container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 500px;
+    background-image: url(../info_background.png);
+    border: 0px groove yellow;
+}
+
+.infotextbox {
+    position: absolute;
+    left: 50px;
+    top: 90px;
+    width: 550px;
+    z-index: 4;
+    font-size: 20px;
+}
+
+.titletextbox {
+    position: absolute;
+    font-weight: bold;
+    left: 80px;
+    top: 50px;
+    z-index: 4;
+    font-size: 30px;
+    width: 720px;
+}
+
+.click-zone {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.click-zone.back {
+    background: none;
+    background-image: url(../back_button.png);
+    left: 0px;
+    top: 0px;
+    width: 140px;
+    height: 60px;
+}
+
+.heinrichhertz{
+    position: absolute;
+    background-image: url(../heinrichhertz.png);
+    left: 630px;
+    top: 90px;
+    width: 110px;
+    height: 120px;
+}
+
+.philliplennard{
+    position: absolute;
+    background-image: url(../philliplennard.png);
+    left: 630px;
+    top: 220px;
+    width: 110px;
+    height: 120px;
+}
+
+.alberteinstein{
+    position: absolute;
+    background-image: url(../alberteinstein.png);
+    left: 630px;
+    top: 350px;
+    width: 110px;
+    height: 120px;
+}
+

@@ -1,0 +1,46 @@
+.container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 500px;
+    background-image: url(../leftdeadend.png);
+    border: 0px groove yellow;
+}
+
+.click-zone {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+    background: red;
+    border: 0px solid blue;
+}
+
+.click-zone.right {
+    left: 770px;
+    top: 190px;
+    width: 30px;
+    height: 120px;
+}
+
+.testtextbox {
+    position: absolute;
+    left: 350px;
+    top: 150px;
+    z-index: 3;
+    font-size: xx-large;
+}
+
+.click-zone.info1 {
+    background: none;
+    background-image: url(../info_book.png);
+    cursor: pointer;
+    left: 100px;
+    top: 310px;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,48 @@
+.container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 500px;
+    background-image: url(../downdeadend.png);
+    border: 0px groove yellow;
+}
+
+.click-zone {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+    background: red;
+    border: 0px solid blue;
+}
+
+.click-zone.up {
+    left: 340px;
+    top: 0px;
+    width: 120px;
+    height: 30px;
+}
+
+.click-zone.info1 {
+    background: none;
+    background-image: url(../info_book.png);
+    cursor: pointer;
+    left: 216px;
+    top: 159px;
+    width: 100px;
+    height: 100px;
+}
+
+.click-zone.info2 {
+    background: none;
+    background-image: url(../info_book.png);
+    cursor: pointer;
+    left: 507px;
+    top: 341px;
+    width: 100px;
+    height: 100px;
+}

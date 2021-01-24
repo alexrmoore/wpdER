@@ -1,0 +1,67 @@
+.container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 500px;
+    background-image: url(../info_background.png);
+    border: 0px groove yellow;
+}
+
+.infotextbox1 {
+    position: absolute;
+    left: 35px;
+    top: 70px;
+    z-index: 4;
+    font-size: 22px;
+    width: 765px;
+}
+
+.infotextbox2 {
+    position: absolute;
+    left: 35px;
+    top: 310px;
+    z-index: 4;
+    font-size: 22px;
+    width: 765px;
+}
+
+.click-zone {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.click-zone.back {
+    background: none;
+    background-image: url(../back_button.png);
+    left: 0px;
+    top: 0px;
+    width: 140px;
+    height: 60px;
+}
+
+.gif1 {
+    position: absolute;
+    left: 140px;
+    top: 120px;
+    width: 500px;
+    height: 167px;
+    background-image: url(../waveinterference_500x167.gif);
+    border: 3px black solid;
+}
+
+.gif2 {
+    position: absolute;
+    left: 140px;
+    top: 360px;
+    width: 500px;
+    height: 100px;
+    background-image: url(../ballcollision_500x100.gif);
+    border: 3px black solid;
+}
+

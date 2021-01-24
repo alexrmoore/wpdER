@@ -1,0 +1,64 @@
+.container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 500px;
+    background-image: url(../info_background.png);
+    border: 0px groove yellow;
+}
+
+.infotextbox {
+    position: absolute;
+    left: 60px;
+    top: 90px;
+    width: 600px;
+    z-index: 4;
+    font-size: 20px;
+}
+
+.titletextbox {
+    position: absolute;
+    font-weight: bold;
+    left: 90px;
+    top: 60px;
+    z-index: 4;
+    font-size: 30px;
+    width: 710px;
+}
+
+.click-zone {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.click-zone.back {
+    background: none;
+    background-image: url(../back_button.png);
+    left: 0px;
+    top: 0px;
+    width: 140px;
+    height: 60px;
+}
+
+.waveparticlediagram{
+    position: absolute;
+    background-image: url(../waves_vs_particles.png);
+    width: 600px;
+    height: 111px;
+    left: 100px;
+    top: 330px;
+}
+
+.verticaldottedline{
+    position: absolute;
+    border-left: 4px dotted black;
+    height: 140px;
+    left: 495px;
+    top: 315px;
+} 

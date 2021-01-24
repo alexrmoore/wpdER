@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="video"></div>
+    <div class="click-zone back" (click)="onBackClick()"></div>
+    <div class="titletextbox" style="font-family: Arial"></div>
+    <div class="inputbox">
+        <button  class="submitbutton" (click)="submitClick()">SUBMIT</button>
+    </div>
+    <div class="experiment-boundary">
+        <div class="vacuumchamber" cdkDragBoundary=".experiment-boundary" cdkDrag (cdkDragEnded)="dragEnd($event,'vacuumchamber', 0)">
+            <span class="tooltiptext" style="font-family: Arial">Vacuum Chamber</span>
+            <div class="electrons" id = "electrons"></div>
+        </div>
+        <!-- <div class="electrons" cdkDragBoundary=".experiment-boundary" cdkDrag (cdkDragEnded)="dragEnd($event,'electrons', 1)">
+            <span class="tooltiptext" style="font-family: Arial">Photoelectrons</span>
+        </div> -->
+        <div class="detector" cdkDragBoundary=".experiment-boundary" cdkDrag (cdkDragEnded)="dragEnd($event,'detector', 2)">
+            <span class="tooltiptext" style="font-family: Arial">Detector</span>
+        </div>
+        <div class="metalsurface" cdkDragBoundary=".experiment-boundary" cdkDrag (cdkDragEnded)="dragEnd($event,'metalsurface', 3)">
+            <span class="tooltiptext" style="font-family: Arial">Metal Surface</span>
+        </div>
+        <div class="incidentlight" cdkDragBoundary=".experiment-boundary" cdkDrag (cdkDragEnded)="dragEnd($event,'incidentlight', 4)">
+            <span class="tooltiptext" style="font-family: Arial">Incident Light</span>
+        </div>
+        <div class="wires" cdkDragBoundary=".experiment-boundary" cdkDrag (cdkDragEnded)="dragEnd($event,'wires', 5)">
+            <span class="tooltiptext" style="font-family: Arial">Wires</span>
+        </div>
+        <div class="battery" cdkDragBoundary=".experiment-boundary" cdkDrag (cdkDragEnded)="dragEnd($event,'battery', 6)">
+            <span class="tooltiptext" style="font-family: Arial">Battery</span>
+        </div>
+        <div class="ammeter" cdkDragBoundary=".experiment-boundary" cdkDrag (cdkDragEnded)="dragEnd($event,'ammeter', 7)">
+            <div class = "ammeter2" id = "ammeter"></div>
+            <span class="tooltiptext" style="font-family: Arial">Ammeter</span>
+        </div>
+    </div>
+    <div class="greenlight" *ngIf="puzzleWon"></div>
+    <div class="redlight" *ngIf="!puzzleWon"></div> 
+</div>

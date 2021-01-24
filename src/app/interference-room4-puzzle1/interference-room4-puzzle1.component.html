@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="video"></div>
+    <div class="click-zone back" (click)="onBackClick()"></div>
+    <div class="plustextbox" style="font-family: Arial">+ </div>
+    <div class="equalstextbox" style="font-family: Arial">= </div>
+    <div class="arrowtextbox" style="font-family: Arial; color:red">&harr; </div>
+    <div class="inputbox">
+        <button class="submitbutton" (click)="submitClick()">SUBMIT</button>
+    </div>
+    <div class="stationary-waveform"></div>
+    <div class="resultant-waveform"></div>
+    <div class="stationary-outline"></div>
+    <div class="resultant-outline"></div>
+    <div class="waveform-boundary">
+        <div class="moveable-waveform" cdkDragBoundary=".waveform-boundary" cdkDragLockAxis="x" cdkDrag (cdkDragEnded)="waveDragEnd($event)"></div>
+    </div>
+    <div class="variable-outline"></div>
+    <div class="hiderblock1"></div>
+    <div class="hiderblock2"></div>
+    <div class="sidearrow"></div>
+    <div class="greenlight" *ngIf="puzzleWon"></div>
+    <div class="redlight" *ngIf="!puzzleWon"></div> 
+</div>

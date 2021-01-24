@@ -1,0 +1,91 @@
+.container {
+    position: absolute;
+    z-index: 11;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 550px;
+    background: #292525;
+}
+
+.titletextbox {
+    position: absolute;
+    /* left: 100px; */
+    left: 30px;
+    top: 30px;
+    width: 600px;
+    height: 200px;
+    /* text-align: center; */
+    text-align: left;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+/* old
+.continuebutton{
+    position: absolute;
+    left: 300px;
+    height: 30px;
+    top: 450px;
+    width: 200px;
+    font-size: 18px;
+} */
+
+
+
+.infobutton {
+    position: absolute;
+    left: 100px;
+    top: 445px;
+    width: 260px;
+    height: 80px;
+    font-size: 20px;
+    background: #3eb471;
+    text-align: center;
+    border: #525252 solid 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.continuebutton {
+    position: absolute;
+    left: 440px;
+    top: 445px;
+    width: 260px;
+    height: 80px;
+    font-size: 20px;
+    background: #3eb471;
+    text-align: center;
+    border: #525252 solid 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.textbox {
+    position: absolute;
+    left: 00px;
+    top: 70px;
+    width: 780px;
+    height: 200px;
+    text-align: left;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.unilogo { /* 1411x832 */
+    position: absolute;
+    left: 640px;
+    top: 5px;
+    background-image: url('../du_logo.png');
+    background-size: 141px 83px;
+    width: 141px;
+    height: 83px;
+    z-index: 12;
+}

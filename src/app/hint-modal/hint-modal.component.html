@@ -1,0 +1,12 @@
+<div class="widercontainer">
+    <div class="container">
+        <div class="blurredbackground"></div>
+        <div class="modalbox"></div>
+        <button class="closebutton" type="button" (click)="close()" style= "font-size: 32px; font-family: Arial; text-align: center;">Close</button>
+        <button class="newhintbutton" type="button" (click)="newHint()" style= "font-size: 32px; font-family: Arial; text-align: center;">New Hint</button>
+        <button class="greyhintbutton" type="button" style= "font-size: 32px; font-family: Arial; text-align: center;" *ngIf = 'hideNewHint'>New Hint</button>
+        <button class="timerhidehintbutton" type="button" style= "font-size: 32px; font-family: Arial; text-align: center;" *ngIf = 'hideHintTimer' (mouseover)="showTooltip=true" (mouseout)="showTooltip=false">New Hint</button>
+        <div class="buttonhover" *ngIf='showTooltip && hideHintTimer && !hideNewHint' style="font-family: Arial;">Wait {{countdownTimer}} more seconds for another hint!</div>
+        <div class="hinttext" style= "font-size: 48px; font-family: Arial; text-align: center; color: black;">{{hintText}}</div>
+    </div>
+</div>

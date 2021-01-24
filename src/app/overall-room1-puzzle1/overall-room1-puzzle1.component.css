@@ -1,0 +1,90 @@
+.container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 500px;
+    background-image: url(../info_background.png);
+    border: 0px groove yellow;
+}
+
+.click-zone {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.click-zone.back {
+    background: none;
+    background-image: url(../back_button.png);
+    left: 0px;
+    top: 0px;
+    width: 140px;
+    height: 60px;
+}
+
+.greenlight {
+    position: absolute;
+    background-image: url(../green_light.png);
+    left: 700px;
+    top: 50px;
+    width: 45px;
+    height: 100px;
+}
+
+.redlight {
+    position: absolute;
+    background-image: url(../red_light.png);
+    left: 700px;
+    top: 50px;
+    width: 45px;
+    height: 100px;
+}
+
+.tablezone{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 70px;
+    left: 60px;
+}
+
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+  }
+
+th, td {
+    padding: 5px;
+    text-align: center;
+  }
+
+input.largerCheckbox { 
+width: 75px; 
+height: 75px; 
+} 
+
+.inputbox{
+    position: absolute;
+    left: 370px;
+    top: 430px;
+    z-index: 10;
+  }
+
+.submitbutton {
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    background: #3eb471;
+    text-align: center;
+    border: #525252 solid 4px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+}

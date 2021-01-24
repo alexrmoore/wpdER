@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="video"></div>
+    <div class="click-zone back" (click)="onBackClick()"></div>
+    <div class="titletextbox" style="font-family: Arial">Select all of the true statements below:</div>
+    <div class="greenlight" *ngIf="puzzleWon"></div>
+    <div class="redlight" *ngIf="!puzzleWon"></div> 
+    <div class="inputbox" style="font-family: Arial">
+        <input class="customCheckbox" type="checkbox" id="photoelectriccheckbox_a">
+        <label class="textlabel" for="photoelectriccheckbox_a"> The photoelectric effect is the processes of electrons being emitted from a metal when illuminated</label><br><br><br>
+        <input class="customCheckbox" type="checkbox" id="photoelectriccheckbox_b">
+        <label class="textlabel" for="photoelectriccheckbox_a"> The energy of photoelectrons depends on the intensity of the incident light</label><br><br><br>
+        <input class="customCheckbox" type="checkbox" id="photoelectriccheckbox_c">
+        <label class="textlabel" for="photoelectriccheckbox_c"> The energy of photoelectrons depends on the frequency of the incident light</label><br><br><br>
+        <input class="customCheckbox" type="checkbox" id="photoelectriccheckbox_d">
+        <label class="textlabel" for="photoelectriccheckbox_d"> The photoelectric effect supports a wave theory of light</label><br><br>
+        <input class="customCheckbox" type="checkbox" id="photoelectriccheckbox_e">
+        <label class="textlabel" for="photoelectriccheckbox_e"> The photoelectric effect supports a particle theory of light</label><br><br>
+        <button class="submitbutton" (click)="submitClick()">SUBMIT</button>
+    </div>
+</div>
+

@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="video"></div>
+    <div class="click-zone back" (click)="onBackClick()"></div>
+    <div class="puzzlediagram"></div>
+    <div class="titletextbox" style="font-family: Arial"></div>
+    <input class = "customslider" type="range" id= "room4-puzzle1-slider" min = 0 max = 90 value = 0 step = 5>
+    <div class="slidertext" style="font-family: Arial">{{sliderRoom4Puzzle1Value}}&deg;</div>
+    <!-- <label for="room4-puzzle1-slider">{{sliderRoom4Puzzle1Value}}&deg;</label><br> -->
+    <button class="submitbutton" (click)="submitClick()">SUBMIT</button>
+    <div class="greenlight" *ngIf="puzzleWon"></div>
+    <div class="redlight" *ngIf="!puzzleWon"></div> 
+    <div class="infotextbox" style="font-family: Arial">(Assuming perfectly elastic collisions)</div>
+</div>

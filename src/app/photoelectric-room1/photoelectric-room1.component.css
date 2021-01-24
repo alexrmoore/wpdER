@@ -1,0 +1,52 @@
+.container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 500px;
+    background-image: url(../Tjunction_up.png);
+    border: 0px groove yellow;
+}
+
+.click-zone {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+    background: red;
+    border: 0px solid blue;
+}
+
+.click-zone.left {
+    left: 0px;
+    top: 190px;
+    width: 30px;
+    height: 120px;
+}
+
+.click-zone.right {
+    left: 770px;
+    top: 190px;
+    width: 30px;
+    height: 120px;
+}
+
+.click-zone.down {
+    left: 340px;
+    top: 470px;
+    width: 120px;
+    height: 30px;
+}
+
+.click-zone.info1 {
+    background: none;
+    background-image: url(../info_book.png);
+    cursor: pointer;
+    left: 317px;
+    top: 317px;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,37 @@
+.container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 500px;
+    background-image: url(../endroom.png);
+    border: 0px groove yellow;
+}
+
+.click-zone {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.click-zone.left {
+    background: red;
+    left: 0px;
+    top: 190px;
+    width: 30px;
+    height: 120px;
+}
+
+.click-zone.end {
+    background-image: url(../trophy_greybackground.png);
+    border: none;
+    left: 650px;
+    top: 150px;
+    width: 140px;
+    height: 200px;
+}
+

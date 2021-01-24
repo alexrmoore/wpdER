@@ -1,0 +1,72 @@
+.container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 500px;
+    background-image: url(../4junction_locked.png);
+    border: 0px groove yellow;
+}
+
+.click-zone {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+    background: red;
+    border: 0px solid blue;
+}
+
+.click-zone.left {
+    left: 0px;
+    top: 190px;
+    width: 30px;
+    height: 120px;
+}
+
+.click-zone.up {
+    left: 340px;
+    top: 0px;
+    width: 120px;
+    height: 30px;
+}
+
+.click-zone.down {
+    left: 340px;
+    top: 470px;
+    width: 120px;
+    height: 30px;
+}
+
+.click-zone.info1 {
+    background: none;
+    background-image: url(../info_book.png);
+    cursor: pointer;
+    left: 362px;
+    top: 312px;
+    width: 100px;
+    height: 100px;
+}
+
+.click-zone.puzzle1 {
+    background: none;
+    background-image: url(../puzzle_piece.png);
+    cursor: pointer;
+    left: 170px;
+    top: 80px;
+    width: 100px;
+    height: 100px;
+}
+
+.puzzle1locked{
+    position: absolute;
+    background: none;
+    background-image: url(../puzzle_piece_locked.png);
+    left: 170px;
+    top: 80px;
+    width: 100px;
+    height: 100px;
+}

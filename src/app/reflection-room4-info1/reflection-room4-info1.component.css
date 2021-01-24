@@ -1,0 +1,59 @@
+.container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 500px;
+    background-image: url(../info_background.png);
+    border: 0px groove yellow;
+}
+
+.titletextbox {
+    position: absolute;
+    font-weight: bold;
+    left: 110px;
+    top: 50px;
+    z-index: 4;
+    font-size: xx-large;
+    width: 690px;
+}
+
+.infotextbox {
+    position: absolute;
+    left: 90px;
+    top: 100px;
+    z-index: 4;
+    font-size: large;
+    width: 710px;
+}
+
+.click-zone {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.click-zone.back {
+    background: none;
+    background-image: url(../back_button.png);
+    left: 0px;
+    top: 0px;
+    width: 140px;
+    height: 59px;
+}
+
+.particlereflectiondiagram{
+    position: absolute;
+    background-image: url(../particle_reflected_220x193.png);
+    left: 500px;
+    top: 115px;
+    width: 220px;
+    height: 193px;
+    border: 3px solid black;
+}
+
+

@@ -1,0 +1,94 @@
+.footerbackground {
+    position: absolute;
+    left: 0;
+    top: 500px;
+    width: 800px;
+    height: 50px;
+    background: black;
+    z-index: 1;
+}
+
+.timerdisplay {
+    position: absolute;
+    left: 60px; /* 60px */
+    top: 500px;
+    width: 400px;
+    height: 50px;
+    background: none;
+    z-index: 2;
+    font-size: 40px;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+}
+
+.clockicon {
+    position: absolute;
+    background-image: url(../clock_icon.png);
+    left: 10px; /* 10px */
+    top: 504px;
+    width: 39px;
+    height: 39px;
+    z-index: 2;
+}
+
+.anonymouscodebox{
+    position: absolute;
+    position: absolute;
+    left: 380px;
+    top: 500px;
+    width: 400px;
+    height: 50px;
+    font-size: 40px;
+    text-align: left;
+    z-index: 2;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+}
+
+.instructions-button {
+    position: absolute;
+    cursor: pointer;
+    background-image:  url(../instructions_button.png);
+    border: 4px groove white;
+    left: 750px;
+    top: 502px;
+    width: 39px;
+    height: 39px;
+    z-index: 2;
+}
+
+.hintbutton {
+    position: absolute;
+    cursor: pointer;
+    background: black;
+    border: 4px groove white;
+    left: 448px;
+    top: 502px;
+    width: 110px;
+    height: 39px;
+    z-index: 2;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+}
+
+.giveupbutton {
+    position: absolute;
+    cursor: pointer;
+    background: black;
+    border: 4px groove white;
+    left: 570px;
+    top: 502px;
+    width: 168px;
+    height: 39px;
+    z-index: 2;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+}

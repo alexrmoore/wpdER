@@ -1,0 +1,46 @@
+.container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 500px;
+    background-image: url(../info_background.png);
+    border: 0px groove yellow;
+}
+
+.infotextbox {
+    position: absolute;
+    width: 700px;
+    left: 60px;
+    top: 70px;
+    z-index: 3;
+    font-size: 20px;
+}
+
+.click-zone {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.click-zone.back {
+    background: none;
+    background-image: url(../back_button.png);
+    left: 0px;
+    top: 0px;
+    width: 140px;
+    height: 60px;
+}
+
+.frequencydiagram {
+    position: absolute;
+    background-image: url(../photoelectric_frequency.png);
+    width: 500px;
+    height: 113px;
+    top: 350px;
+    left: 150px;
+}

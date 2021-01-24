@@ -1,0 +1,60 @@
+.container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 550px;
+    background-image: url(../GameOverScreen.png);
+    border: 0px groove yellow;
+    z-index: 10;
+}
+
+.click-zone {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.click-zone.survey{
+    left: 268px;
+    top: 465px;
+    width: 260px;
+    height: 57px;
+    z-index: 20;
+}
+
+.idtextbox{
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    top: 310px;
+    width: 800px;
+    height: 50px;
+    z-index: 11;
+    font-size: 30px;
+}
+
+.hidebutton {
+    position: absolute;
+    background: #292525;
+    left: 20px;
+    top: 400px;
+    width: 760px;
+    height: 130px;
+    z-index: 21;
+}
+
+.surveytext {
+    position: absolute;
+    width: 660px;
+    left: 70px;
+    top: 380px;
+    height: 100px;
+    text-align: center;
+    z-index: 22;
+    font-size: 17px;
+}

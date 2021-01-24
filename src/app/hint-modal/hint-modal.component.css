@@ -1,0 +1,133 @@
+.widercontainer {
+    position: absolute;
+    left: 50%;
+}
+
+.container {
+    position: absolute;
+    left: -400px;
+}
+
+.blurredbackground {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 800px;
+    height: 550px;
+    background: grey;
+    opacity: 0.6;
+    z-index: 21;
+}
+
+.modalbox {    
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    width: 760px;  
+    height: 470px;
+    z-index: 21;
+    background-color: #fbe99e;
+    border: black solid 6px;
+    border-radius: 15px; 
+}
+
+.closebutton {
+    cursor: pointer;
+    position: absolute;
+    left: 150px;
+    top: 420px;
+    width: 200px;  
+    height: 60px;
+    z-index: 22;
+    background: #3eb471;
+    border: black solid 6px;
+    border-radius: 15px;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    font-weight: bold;
+}
+
+.newhintbutton {
+    cursor: pointer;
+    position: absolute;
+    left: 450px;
+    top: 420px;
+    width: 200px;  
+    height: 60px;
+    z-index: 22;
+    background: #3eb471;
+    border: black solid 6px;
+    border-radius: 15px;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    font-weight: bold;
+}
+
+.greyhintbutton {
+    position: absolute;
+    left: 450px;
+    top: 420px;
+    width: 200px;  
+    height: 60px;
+    z-index: 24;
+    background: #919e96;
+    border: black solid 6px;
+    border-radius: 15px;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    font-weight: bold;
+}
+
+.timerhidehintbutton {
+    position: absolute;
+    left: 450px;
+    top: 420px;
+    width: 200px;  
+    height: 60px;
+    z-index: 23;
+    background: #919e96;
+    border: black solid 6px;
+    border-radius: 15px;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    font-weight: bold;
+}
+
+.hinttext {
+    position: absolute;
+    left: 60px;
+    top: 120px;
+    width: 680px;  
+    height: 100px;
+    z-index: 22;
+    overflow-wrap: normal;
+    font-weight: bolder;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+}
+
+.buttonhover {
+    position: absolute;
+    z-index: 25;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    text-emphasis: bolder;
+    font-size: 18px;
+    width: 200px;
+    top: 370px;
+    left: 510px;
+}
+

@@ -1,0 +1,51 @@
+.container {
+    position: absolute;
+    z-index: 11;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 550px;
+    background: #292525;
+}
+
+.textbox {
+    position: absolute;
+    left: 100px;
+    top: 130px;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.returnbutton {
+    position: absolute;
+    left: 245px;
+    top: 320px;
+    width: 310px;
+    height: 65px;
+    font-size: 20px;
+    background: #3eb471;
+    text-align: center;
+    border: #525252 solid 6px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.continuebutton {
+    position: absolute;
+    left: 185px;
+    top: 420px;
+    width: 430px;
+    height: 85px;
+    font-size: 20px;
+    background: #3eb471;
+    text-align: center;
+    border: #525252 solid 6px;
+    border-radius: 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="video"></div>
+    <div class="click-zone survey" (click)="onSurveyClick()"></div>
+    <div class="finaltime" style="font-family: Arial; color:white">Time: {{timeString}}</div>
+    <div class="idtextbox" style="font-family: Arial; color:white">Anonymous ID Code: {{anonymousCode}}</div>
+    <div class="hidebutton" *ngIf="!consentGiven"></div>
+    <div class="surveytext" *ngIf="consentGiven" style="font-family: Arial; color:#c090e4">Well done for completing the escape room! Please now complete the post-escape room survey linked below. All responses to the survey are extremely useful for this study, and are much appreciated.</div>
+    <div class="surveytext" *ngIf="!consentGiven" style="font-family: Arial; color:#c090e4">Well done for completing the escape room! I hope you enjoyed the game, and learnt something new about wave-particle duality! You may now close this browser.</div>
+</div>

@@ -1,0 +1,66 @@
+.container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 500px;
+    background-image: url(../info_background.png);
+    border: 0px groove yellow;
+}
+
+.infotextbox {
+    position: absolute;
+    left: 40px;
+    top: 80px;
+    width: 470px;
+    z-index: 4;
+    font-size: 20px;
+}
+
+.titletextbox {
+    position: absolute;
+    font-weight: bold;
+    left: 90px;
+    top: 50px;
+    z-index: 4;
+    font-size: 30px;
+    width: 710px;
+}
+
+.click-zone {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.click-zone.back {
+    background: none;
+    background-image: url(../back_button.png);
+    left: 0px;
+    top: 0px;
+    width: 140px;
+    height: 60px;
+}
+
+.thomasyoung {
+    position: absolute;
+    background-image: url(../ThomasYoung_161x150.png);
+    left: 570px;
+    top: 35px;
+    width: 161px;
+    height: 150px;
+}
+
+
+.youngdiagram {
+    position: absolute;
+    background-image: url(../interference_discovery_200x151.png);
+    left: 550px;
+    top: 230px;
+    width: 200px;
+    height: 151px;
+}

@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="video"></div>
+    <div class="click-zone back" (click)="onBackClick()"></div>
+    <div class="titletextbox" style="font-family: Arial"></div>
+    <div class="greenlight" *ngIf="puzzleWon"></div>
+    <div class="redlight" *ngIf="!puzzleWon"></div> 
+    <div class="tablezone" style="font-family: Arial"> 
+        <table style="width:100%">
+            <tr>
+            <th style="background-color:black"></th>
+            <th style="background-color: black; color: white">Wave Phenomenon</th>
+            <th style="background-color:black; color: white">Particle Phenomenon</th>
+            </tr>
+            <tr>
+            <td><b>Reflection</b></td>
+            <td><input type="checkbox" id="reflectioncheckbox_wave" class="largerCheckbox"></td>
+            <td><input type="checkbox" id="reflectioncheckbox_particle" class="largerCheckbox"></td>
+            </tr>
+            <tr>
+            <td><b>Interference</b></td>
+            <td><input type="checkbox" id="interferencecheckbox_wave" class="largerCheckbox"></td>
+            <td><input type="checkbox" id="interferencecheckbox_particle" class="largerCheckbox"></td>
+            </tr>
+            <tr>
+            <td><b>Photoelectric Effect</b></td>
+            <td><input type="checkbox" id="photoelectriccheckbox_wave" class="largerCheckbox"></td>
+            <td><input type="checkbox" id="photoelectriccheckbox_particle" class="largerCheckbox"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="inputbox">
+        <button class="submitbutton" (click)="submitClick()">SUBMIT</button>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+.container {
+    position: absolute;
+    z-index: 11;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 550px;
+    background: #292525;
+}
+
+.widget-node{
+    position: absolute;
+    left:0px;
+    top: 0px;
+    z-index: 12;
+}
+
+.nextButton{
+    position:  absolute;
+    cursor: pointer;
+    background: url(../escaperoombutton.png);
+    background-size: 300px, 64px;
+    left: 250px;
+    top: 375px;
+    width: 300px; /* 400px; */  
+    height: 64px; /* 85px; */ 
+    z-index: 45;
+}

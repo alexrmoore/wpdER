@@ -1,0 +1,92 @@
+.container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 500px;
+    background-image: url(../info_background.png);
+    border: 0px groove yellow;
+}
+
+.inputbox{
+    position: absolute;
+    left: 55px;
+    top: 120px;
+    font-size: x-large;
+    width: 650px;
+}
+
+.titletextbox {
+    position: absolute;
+    left: 55px;
+    top: 60px;
+    z-index: 4;
+    font-size: xx-large;
+    font-weight: bold;
+    width: 745px;
+}
+
+.click-zone {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.click-zone.back {
+    background: none;
+    background-image: url(../back_button.png);
+    left: 0px;
+    top: 0px;
+    width: 140px;
+    height: 60px;
+}
+
+.greenlight {
+    position: absolute;
+    background-image: url(../green_light.png);
+    left: 700px;
+    top: 40px;
+    width: 45px;
+    height: 100px;
+}
+
+.redlight {
+    position: absolute;
+    background-image: url(../red_light.png);
+    left: 700px;
+    top: 40px;
+    width: 45px;
+    height: 100px;
+}
+
+.submitbutton {
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    background: #3eb471;
+    text-align: center;
+    border: #525252 solid 4px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    left: 300px;
+}
+
+input.customCheckbox { 
+    width: 23px; 
+    height: 23px; 
+    /*vertical-align:middle;*/
+    } 
+
+.textlabel {
+    position: absolute;
+    width: 630px;
+    text-align: left;
+    margin-left: 10px;
+}
+

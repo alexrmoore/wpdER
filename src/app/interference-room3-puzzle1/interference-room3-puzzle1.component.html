@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="video"></div>
+    <div class="click-zone back" (click)="onBackClick()"></div>
+    <div class="titletextbox" style="font-family: Arial">Select all of the true statements below:</div>
+    <div class="greenlight" *ngIf="puzzleWon"></div>
+    <div class="redlight" *ngIf="!puzzleWon"></div> 
+    <div class="inputbox" style="font-family: Arial">
+        <input class="customCheckbox" type="checkbox" id="interferencecheckbox_a">
+        <label class="textlabel" for="interferencecheckbox_a"> Light can display interference </label><br><br>
+        <input class="customCheckbox" type="checkbox" id="interferencecheckbox_b">
+        <label class="textlabel" for="interferencecheckbox_a"> Water waves do not show interference</label><br><br>
+        <input class="customCheckbox" type="checkbox" id="interferencecheckbox_c">
+        <label class="textlabel" for="interferencecheckbox_c"> Interference is a phenomenon only exhibited by particles</label><br><br>
+        <input class="customCheckbox" type="checkbox" id="interferencecheckbox_d">
+        <label class="textlabel" for="interferencecheckbox_d"> Interference is a phenomenon only exhibited by waves</label><br><br>
+        <input class="customCheckbox" type="checkbox" id="interferencecheckbox_e">
+        <label class="textlabel" for="interferencecheckbox_e"> Interference is a phenomenon exhibited by both waves and particles</label><br><br>
+        <button class="submitbutton" (click)="submitClick()">SUBMIT</button>
+    </div>
+</div>
+

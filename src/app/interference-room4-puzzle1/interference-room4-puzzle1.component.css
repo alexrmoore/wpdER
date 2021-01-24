@@ -1,0 +1,191 @@
+.container {
+    position: absolute;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 500px;
+    background-image: url(../info_background.png);
+    border: 0px groove yellow;
+}
+
+.inputbox{
+    position: absolute;
+    left: 570px;
+    top: 180px;
+    z-index: 11;
+  }
+
+.click-zone {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.click-zone.back {
+    background: none;
+    background-image: url(../back_button.png);
+    left: 0px;
+    top: 0px;
+    width: 140px;
+    height: 60px;
+    z-index: 20;
+}
+
+.greenlight {
+    position: absolute;
+    background-image: url(../green_light.png);
+    left: 690px;
+    top: 140px;
+    width: 45px;
+    height: 100px;
+    z-index: 10;
+}
+
+.redlight {
+    position: absolute;
+    background-image: url(../red_light.png);
+    left: 690px;
+    top: 140px;
+    width: 45px;
+    height: 100px;
+    z-index: 10;
+}
+
+.waveform-boundary {
+    position: relative;
+    top: 140px;
+    left: 24px;
+    width: 750px;
+    height: 92px;
+    max-width: 100%;
+    border: none;
+    }
+
+.stationary-waveform { /* Have subtracted 53 pixels from left*/
+    position: absolute;
+    left: 221px; /* 274 px */
+    top: 55px;
+    width: 500px;
+    height: 55px;
+    background-image: url(../stationary_sinewave_500x55.png);
+    z-index: 5;
+}
+
+.moveable-waveform {
+    position: absolute;
+    left: 250px;
+    top: 0px;
+    width: 500px;
+    height: 92px;
+    cursor: move;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../variable_sinewave_500x92.png);
+    z-index: 5;
+}
+
+.resultant-waveform { /* Have subtracted 53 pixels from left*/
+    position: absolute;
+    left: 221px; /* 274 px */
+    top: 322px;
+    width: 500px;
+    height: 118px;
+    background-image: url(../resultant_sinewave_500x118.png);
+    z-index: 5;
+}
+
+.variable-outline{
+    position: absolute;
+    top: 132px;
+    left: 274px;
+    width: 247px;
+    height: 100px;
+    background: none;
+    border: solid red 3px;
+    }
+
+.stationary-outline{ 
+    position: absolute;
+    top: 55px;
+    left: 274px;
+    width: 247px;
+    height: 55px;
+    background: none;
+    border: solid black 3px;
+    }
+
+.resultant-outline{
+    position: absolute;
+    top: 312px;
+    left: 274px;
+    width: 247px;
+    height: 128px;
+    background: none;
+    border: solid black 3px;
+    }
+
+
+.hiderblock1{
+    position: absolute;
+    top: 50px;
+    left: 24px;
+    width: 250px;
+    height: 400px;
+    background: #FDF6C3;
+    z-index: 10;
+}
+    
+.hiderblock2{
+    position: absolute;
+    top: 50px;
+    left: 527px;
+    width: 250px;
+    height: 400px;
+    background: #FDF6C3;
+    z-index: 10;
+}
+
+.plustextbox{
+    position: absolute;
+    font-weight: bold;
+    left: 120px;
+    top: 80px;
+    z-index: 14;
+    font-size: 80px;
+}
+
+.equalstextbox{
+    position: absolute;
+    font-weight: bold;
+    left: 120px;
+    top: 335px;
+    z-index: 14;
+    font-size: 80px;
+}
+
+.arrowtextbox{
+    position: absolute;
+    font-weight: bold;
+    left: 348px;
+    top: 200px;
+    z-index: 1;
+    font-size: 100px;
+}
+
+.submitbutton {
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    background: #3eb471;
+    text-align: center;
+    border: #525252 solid 4px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
