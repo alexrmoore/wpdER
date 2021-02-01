@@ -4,6 +4,7 @@ import { LockedRoomsService } from '../locked-rooms.service';
 import { AnonymousIdentifierService } from '../anonymous-identifier.service';
 import { TimersService } from '../timers.service';
 import { BackListenerService} from '../back-listener.service';
+import {RecentUrlService} from '../recent-url.service';
 
 @Component({
   selector: 'app-titlescreen',
@@ -17,7 +18,8 @@ export class TitlescreenComponent implements OnInit {
               private lockedRoomsService: LockedRoomsService,
               private anonymousIdentifierService: AnonymousIdentifierService,
               private timersService: TimersService,
-              private backListener: BackListenerService) { }
+              private backListener: BackListenerService,
+              private recentUrl: RecentUrlService) { }
 
   anonymousCode = this.anonymousIdentifierService.anonymousCode;
 
