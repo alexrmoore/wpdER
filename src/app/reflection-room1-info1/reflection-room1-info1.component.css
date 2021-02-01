@@ -55,3 +55,12 @@
     height: 155px;
 }
 
+  
+  figcaption {
+    position: relative;
+    color: black;
+    text-align: right;
+    font-style: italic;
+    top: 155px;
+    font-size: 10px;
+  }

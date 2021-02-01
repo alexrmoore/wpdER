@@ -14,21 +14,21 @@
 
 .infotextbox {
     position: absolute;
-    left: 50px;
-    top: 100px;
-    width: 500px;
+    left: 30px;
+    top: 90px;
+    width: 700px;
     z-index: 4;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .titletextbox {
     position: absolute;
     font-weight: bold;
-    left: 50px;
-    top: 60px;
+    left: 65px;
+    top: 55px;
     width: 750px;
     z-index: 4;
-    font-size: xx-large;
+    font-size: 34px;
 }
 
 .click-zone {
@@ -49,10 +49,24 @@
 .photondiagram{
     position: absolute;
     background-image: url(../photon_diagram.png);
+    background-size: 240px, 179px;
     border: 3px solid black;
-    width: 200px;
-    height: 149px;
-    left: 560px;
-    top: 70px;
+    /* width: 200px;
+    height: 149px; */
+    width: 240px;
+    height: 179px;
+    left: 505px;
+    top: 60px;
 }
+
+  
+figcaption {
+    position: relative;
+    color: black;
+    text-align: right;
+    font-style: italic;
+    top: 182px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 

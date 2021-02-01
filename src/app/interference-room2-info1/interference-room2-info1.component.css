@@ -24,7 +24,7 @@
 .infotextbox2 {
     position: absolute;
     left: 35px;
-    top: 250px;
+    top: 245px;
     width: 765px;
     z-index: 4;
     font-size: 22px;
@@ -55,6 +55,8 @@
     height: 75px;
 }
 
+
+
 .destructivediagram{
     position: absolute;
     background-image: url(../destructive_interference_diagram_242x75.png);
@@ -64,3 +66,16 @@
     width: 242px;
     height: 75px;
 }
+
+  
+figcaption {
+    position: relative;
+    color: black;
+    text-align: right;
+    font-style: italic;
+    top: 78px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+/* https://www.physicsclassroom.com/class/waves/Lesson-3/Interference-of-Waves */

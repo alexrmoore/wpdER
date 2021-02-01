@@ -14,11 +14,11 @@
 
 .infotextbox {
     position: absolute;
-    left: 70px;
-    top: 90px;
+    left: 50px;
+    top: 60px;
     z-index: 4;
-    font-size: 25px;
-    width: 730px;
+    font-size: 27px;
+    width: 350px;
 }
 
 .click-zone {
@@ -45,8 +45,8 @@ line-height:270%
     position: absolute;
     background-image: url(../light_interference_300x212.png);
     border: 3px black solid;
-    left: 420px;
-    top: 50px;
+    left: 450px;
+    top: 60px;
     width: 300px;
     height: 212px;
 }
@@ -55,9 +55,18 @@ line-height:270%
     position: absolute;
     background-image: url(../waterwave_interference_300x150.png);
     border: 3px black solid;
-    left: 420px;
-    top: 280px;
+    left: 450px;
+    top: 300px;
     width: 300px;
     height: 150px;
 }
 
+  
+figcaption {
+    position: relative;
+    color: black;
+    text-align: right;
+    font-style: italic;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }

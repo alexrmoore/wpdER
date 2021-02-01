@@ -14,18 +14,18 @@
 
 .infotextbox {
     position: absolute;
-    left: 60px;
+    left: 45px;
     top: 90px;
-    width: 450px;
+    width: 490px;
     z-index: 4;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .titletextbox {
     position: absolute;
     font-weight: bold;
-    left: 90px;
-    top: 50px;
+    left: 65px;
+    top: 60px;
     z-index: 4;
     font-size: 30px;
     width: 710px;
@@ -54,3 +54,14 @@
     left: 550px;
     top: 180px;
 }
+
+  
+figcaption {
+    position: relative;
+    color: black;
+    text-align: right;
+    font-style: italic;
+    top: 155px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }

@@ -47,8 +47,8 @@
 .greenlight {
     position: absolute;
     background-image: url(../green_light.png);
-    left: 600px;
-    top: 190px;
+    left: 700px;
+    top: 40px;
     width: 45px;
     height: 100px;
 }
@@ -56,8 +56,8 @@
 .redlight {
     position: absolute;
     background-image: url(../red_light.png);
-    left: 600px;
-    top: 190px;
+    left: 700px;
+    top: 40px;
     width: 45px;
     height: 100px;
 }
@@ -83,7 +83,7 @@
     cursor: pointer;
     font-weight: bold;
     left: 525px;
-    top: 430px;
+    top: 310px;
 }
 
 .customslider {
@@ -99,7 +99,7 @@
     -webkit-transition: .2s;
     transition: opacity .2s;
     left: 450px;
-    top: 390px;
+    top: 270px;
   }
   
   .customslider::-webkit-slider-thumb {
@@ -125,7 +125,7 @@
   .slidertext {
     position: absolute;
     left: 450px;
-    top: 345px;
+    top: 225px;
     width: 240px;
     font-size: 32px;
     text-align: center;
