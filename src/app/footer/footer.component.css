@@ -130,3 +130,35 @@
     -webkit-user-select:none;
     -ms-user-select:none;
 } */
+
+.tooltiptext {
+    visibility: hidden;
+    width: 115px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 15;
+  }
+  
+  .instructions-button:hover .tooltiptext {
+    left: -40px;
+    top: -37px;
+    visibility: visible;
+  }
+
+  .hint-button:hover .tooltiptext {
+    left: -44px;
+    top: -37px;
+    visibility: visible;
+  }
+
+  .giveup-button:hover .tooltiptext {
+    left: -70px;
+    top: -37px;
+    visibility: visible;
+  }

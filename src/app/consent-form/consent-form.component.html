@@ -7,32 +7,52 @@
         <ul>
             <li>I confirm that I have read and understand the sheet dated 02/12/20 for this project.</li>
             <td>
-                <input type="checkbox" id="consent1" class="largerCheckbox">
+                <input type="checkbox" id="consent1" class="largerCheckbox" (click)="checkboxChange('consent',1)">
                 <label for="consent1" style="line-height: 70px;"> Agree </label><br>
+                <div class="declineboxes">
+                    <input type="checkbox" id="decline1" class="largerCheckbox" (click)="checkboxChange('decline',1)">
+                    <label for="decline1" style="line-height: 70px;"> Disagree </label><br>
+                </div>
             </td>
             <hr style="width:90%;text-align:left;margin-left:0">
             <li>I confirm that I am over the age of 16.</li>
             <td>
-                <input type="checkbox" id="consent2" class="largerCheckbox">
+                <input type="checkbox" id="consent2" class="largerCheckbox" (click)="checkboxChange('consent',2)">
                 <label for="consent2" style="line-height: 70px;"> Agree </label><br>
+                <div class="declineboxes">
+                    <input type="checkbox" id="decline2" class="largerCheckbox" (click)="checkboxChange('decline',2)">
+                    <label for="decline2" style="line-height: 70px;"> Disagree </label><br>
+                </div>
             </td>
-            <hr style="width:90%;text-align:left;margin-left:0" class="largerCheckbox">
+            <hr style="width:90%;text-align:left;margin-left:0">
             <li>I have had sufficient time to consider the information and ask any questions I might have, and I am satisfied with the answers I have been given.</li>
             <td>
-                <input type="checkbox" id="consent3" class="largerCheckbox">
+                <input type="checkbox" id="consent3" class="largerCheckbox" (click)="checkboxChange('consent',3)">
                 <label for="consent3" style="line-height: 70px;"> Agree </label><br>
+                <div class="declineboxes">
+                    <input type="checkbox" id="decline3" class="largerCheckbox" (click)="checkboxChange('decline',3)">
+                    <label for="decline3" style="line-height: 70px;"> Disagree </label><br>
+                </div>
             </td>
             <hr style="width:90%;text-align:left;margin-left:0">
             <li>I agree to take part in this research project.</li>
             <td>
-                <input type="checkbox" id="consent4" class="largerCheckbox">
+                <input type="checkbox" id="consent4" class="largerCheckbox" (click)="checkboxChange('consent',4)">
                 <label for="consent4" style="line-height: 70px;"> Agree </label><br>
+                <div class="declineboxes">
+                    <input type="checkbox" id="decline4" class="largerCheckbox" (click)="checkboxChange('decline',4)">
+                    <label for="decline4" style="line-height: 70px;"> Disagree </label><br>
+                </div>
             </td>
             <hr style="width:90%;text-align:left;margin-left:0">
             <li>I understand that my participation is voluntary and that I am free to withdraw at any time without giving a reason.	</li>
             <td>
-                <input type="checkbox" id="consent5" class="largerCheckbox">
+                <input type="checkbox" id="consent5" class="largerCheckbox" (click)="checkboxChange('consent',5)">
                 <label for="consent5" style="line-height: 70px;"> Agree </label><br>
+                <div class="declineboxes">
+                    <input type="checkbox" id="decline5" class="largerCheckbox" (click)="checkboxChange('decline',5)">
+                    <label for="decline5" style="line-height: 70px;"> Disagree </label><br>
+                </div>
             </td>
         </ul>
     </div>

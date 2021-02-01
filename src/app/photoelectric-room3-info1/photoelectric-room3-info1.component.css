@@ -47,3 +47,15 @@
     height: 193px;
 }
 
+  
+figcaption {
+    position: relative;
+    color: black;
+    text-align: right;
+    font-style: italic;
+    top: 196px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+/* https://www.askiitians.com/iit-jee-dual-nature-of-matter-and-x-rays/study-of-photoelectric-effect/ */ 

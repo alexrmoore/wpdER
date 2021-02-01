@@ -35,3 +35,14 @@
     height: 200px;
 }
 
+.clickme { /* 709x690 /5 */ 
+    position: absolute;
+    left: 670px;
+    top: 340px;
+    background-image: url(../clickme.png);
+    background-size: 142px, 138px;
+    width: 142px;
+    height: 138px;
+    z-index: 2;
+}
+

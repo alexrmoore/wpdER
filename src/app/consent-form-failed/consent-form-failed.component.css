@@ -14,12 +14,13 @@
 
 .textbox {
     position: absolute;
-    left: 100px;
+    left: 50px;
     top: 130px;
-    width: 600px;
+    width: 700px;
     height: 200px;
     text-align: center;
     font-size: 35px;
+    font-weight: bold;
 }
 
 .returnbutton {

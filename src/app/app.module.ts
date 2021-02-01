@@ -68,7 +68,7 @@ import { GiveupModalComponent } from './giveup-modal/giveup-modal.component';
 import { GameoverScreenComponent } from './gameover-screen/gameover-screen.component';
 import { HintModalComponent } from './hint-modal/hint-modal.component';
 import { InfoScreenComponent } from './info-screen/info-screen.component';
-
+import { BackListenerService} from './back-listener.service';
 
 
 const routes: Routes = [
@@ -207,7 +207,7 @@ const routes: Routes = [
     DragDropModule,
   ],
   exports: [RouterModule],
-  providers: [LockedRoomsService, AnonymousIdentifierService, TimersService, ConsentService],
+  providers: [LockedRoomsService, AnonymousIdentifierService, TimersService, ConsentService, BackListenerService],
   bootstrap: [AppComponent],
   entryComponents: [GiveupModalComponent]
 })

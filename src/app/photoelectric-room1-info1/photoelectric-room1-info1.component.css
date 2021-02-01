@@ -56,3 +56,17 @@
     width: 270px;
     height: 237px; 
 }
+
+  
+figcaption {
+    position: relative;
+    color: black;
+    text-align: left;
+    font-style: italic;
+    top: 180px;
+    left: 250px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+/* https://www.ck12.org/physics/General-Theory-of-Relativity/rwa/Photoelectric-Effect/?referrer=concept_details */

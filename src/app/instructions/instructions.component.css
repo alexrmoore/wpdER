@@ -86,12 +86,13 @@ li {
 
 .trophyimage{
     float: right;
-    margin-left: 7px;
+    margin-left: 15px;
     margin-right: 7px;
     background: url(../trophy_nobackground.png);
     border: none;
     width: 70px;
     height: 100px;
+    margin-bottom: -1px;
 }
 
 .navigationimage{
@@ -138,6 +139,52 @@ li {
     height: 100px;
 }
 
+.ingameinstructionsimage{
+    float: right;
+    margin-left: 20px;
+    margin-right: 7px;
+    margin-top: 15px;
+    background: url(../instructions_button.png);
+    border: 4px groove white;
+    width: 39px;
+    height: 39px;
+}
+
+.hintimage{
+    float: right;
+    margin-left: 20px;
+    margin-right: 7px;
+    margin-top: 15px;
+    background: url(../hintButton.png);
+    border: 4px groove white;
+    width: 39px;
+    height: 39px;
+}
+
+.giveupimage{
+    float: right;
+    margin-left: 20px;
+    margin-right: 7px;
+    margin-top: 15px;
+    background: url(../giveupButton.png);
+    border: 4px groove white;
+    width: 39px;
+    height: 39px;
+    margin-bottom: 15px;
+
+}
+
+.timerimage{
+    float: right;
+    margin-left: 20px;
+    margin-right: 7px;
+    margin-top: 15px;
+    background: url(../clock_icon.png);
+    border: 4px groove white;
+    width: 39px;
+    height: 39px;
+    margin-bottom: 40px;
+}
 
 .hidetimer {
     position: absolute;
