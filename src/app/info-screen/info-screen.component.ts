@@ -26,6 +26,7 @@ export class InfoScreenComponent {
     const pdfUrl = '../assets/InfoSheet.pdf';
     const pdfName = 'PhysicsEscapeRoom_InformationSheet_25.01.21.pdf';
     FileSaver.saveAs(pdfUrl, pdfName); */
+    // window.open('https://drive.google.com/file/d/1FjagqXnUCjIib09QBfsfPWuE1yg6gh6L/view?usp=sharing', '_blank');
     window.open('https://drive.google.com/file/d/1FjagqXnUCjIib09QBfsfPWuE1yg6gh6L/view?usp=sharing', '_blank');
   }
 
