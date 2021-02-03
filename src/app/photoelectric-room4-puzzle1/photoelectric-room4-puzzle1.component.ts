@@ -54,7 +54,7 @@ export class PhotoelectricRoom4Puzzle1Component implements OnInit {
           // console.log('3');
           // Detector-x - Ammeter-x is between 60px and 125px
           // tslint:disable-next-line:max-line-length
-          if ((this.currentCoordinates[2][0] - this.currentCoordinates[7][0]) >= 60 && (this.currentCoordinates[2][0] - this.currentCoordinates[7][0]) <= 125) {
+          if ((this.currentCoordinates[2][0] - this.currentCoordinates[7][0]) >= 60 && (this.currentCoordinates[2][0] - this.currentCoordinates[7][0]) <= 135) {
             // console.log('4');
             // Vacuum-x - Detector-x is between 0px and 55px
             // tslint:disable-next-line:max-line-length
@@ -86,7 +86,7 @@ export class PhotoelectricRoom4Puzzle1Component implements OnInit {
                           // console.log('14');
                           // Wires-x - Metal-x is between 0px and 95px
                           // tslint:disable-next-line:max-line-length
-                          if ((this.currentCoordinates[5][0] - this.currentCoordinates[3][0]) >= 0 && (this.currentCoordinates[5][0] - this.currentCoordinates[3][0]) <= 95) {
+                          if ((this.currentCoordinates[5][0] - this.currentCoordinates[3][0]) >= 0 && (this.currentCoordinates[5][0] - this.currentCoordinates[3][0]) <= 105) {
                             // console.log('15');
                             // Metal-x - Light-x is between 90px and 210px
                             // tslint:disable-next-line:max-line-length
@@ -141,7 +141,7 @@ export class PhotoelectricRoom4Puzzle1Component implements OnInit {
           // console.log('3');
           // Detector-x - Ammeter-x is between 60px and 125px
           // tslint:disable-next-line:max-line-length
-          if ((this.currentCoordinates[2][0] - this.currentCoordinates[7][0]) >= 60 && (this.currentCoordinates[2][0] - this.currentCoordinates[7][0]) <= 125) {
+          if ((this.currentCoordinates[2][0] - this.currentCoordinates[7][0]) >= 60 && (this.currentCoordinates[2][0] - this.currentCoordinates[7][0]) <= 135) {
             // console.log('4');
             // Vacuum-x - Detector-x is between 0px and 55px
             // tslint:disable-next-line:max-line-length
@@ -173,7 +173,7 @@ export class PhotoelectricRoom4Puzzle1Component implements OnInit {
                           // console.log('14');
                           // Wires-x - Metal-x is between 0px and 95px
                           // tslint:disable-next-line:max-line-length
-                          if ((this.currentCoordinates[5][0] - this.currentCoordinates[3][0]) >= 0 && (this.currentCoordinates[5][0] - this.currentCoordinates[3][0]) <= 95) {
+                          if ((this.currentCoordinates[5][0] - this.currentCoordinates[3][0]) >= 0 && (this.currentCoordinates[5][0] - this.currentCoordinates[3][0]) <= 105) {
                             // console.log('15');
                             // Metal-x - Light-x is between 90px and 210px
                             // tslint:disable-next-line:max-line-length
