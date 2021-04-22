@@ -5,6 +5,7 @@ import { AnonymousIdentifierService } from '../anonymous-identifier.service';
 import { TimersService } from '../timers.service';
 import { BackListenerService} from '../back-listener.service';
 import {RecentUrlService} from '../recent-url.service';
+import {ConsentService} from '../consent.service';
 
 @Component({
   selector: 'app-titlescreen',
@@ -19,7 +20,8 @@ export class TitlescreenComponent implements OnInit {
               private anonymousIdentifierService: AnonymousIdentifierService,
               private timersService: TimersService,
               private backListener: BackListenerService,
-              private recentUrl: RecentUrlService) { }
+              private recentUrl: RecentUrlService,
+              private consentService: ConsentService) { }
 
   anonymousCode = this.anonymousIdentifierService.anonymousCode;
 
@@ -28,9 +30,11 @@ export class TitlescreenComponent implements OnInit {
   startButton(): void {
     // const hideTimerButton = document.getElementById('hideTimer') as HTMLInputElement;
     // this.router.navigateByUrl('/consent_form');
-    this.router.navigateByUrl('/info-screen');
-
+    // this.router.navigateByUrl('/info-screen'); // With surveys
+    this.router.navigateByUrl('/startinstructions'); // No surveys
+    this.consentService.consentGiven = false; // No surveys
     this.lockedRoomsService.roomLocked = [true, true, true, true, true, true, true, true];
+
     // this.lockedRoomsService.roomLocked = [false, false, false, false, false, false, false, false];
     // this.lockedRoomsService.roomLocked = [false, false, false, false, false, true, true, true];
     // this.timersService.hideTimer = !(hideTimerButton.checked);
